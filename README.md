@@ -1,1 +1,1 @@
-# web-teknolojileri-proje dokumani
+# web-teknolojileri-projesi
