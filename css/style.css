@@ -1,0 +1,134 @@
+.sectionIndex{
+    background-color:rgba(46, 46, 46, 0.244);
+    margin-top:-8px;
+}
+.resim{
+    width:75%;
+    height:300px;
+    background-size:cover;
+    background-position: center center;
+
+}
+
+
+.footerA{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+.slider{
+    position: relative;
+    width: 500px;
+    height:300px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 10%;
+    
+
+}
+.slider-content{
+    position: absolute;
+    left:0;
+    width:500%;
+    animation: slide 15s infinite;
+}
+.slider-item{
+    width:20%;
+    float:left;
+}
+@keyframes slide{
+    0%{
+        transform:translate(0px);
+    }
+
+    10%{
+        transform:translate(-500px);
+    }
+
+    20%{
+        transform:translate(-500px);
+    }
+
+    30%{
+        transform:translate(-1000px);
+    }
+
+    40%{
+        transform:translate(-1000px);
+    }
+
+    50%{
+        transform:translate(-1500px);
+    }
+
+    60%{
+        transform:translate(-1500px);
+    }
+
+    70%{
+        transform:translate(-2000px);
+    }
+
+    80%{
+        transform:translate(-2000px);
+    }
+    90%{
+        transform:translate(-2000px);
+    }
+}
+.sectionTakim{
+    background-color: rgba(0, 255, 13, 0.309);
+    margin-top:-8px;
+    padding: 50px;
+
+}
+
+
+
+.sectionalsancak{
+    background-image: url(../images/alsancak2.jpg);
+    width: 100%;
+    max-height: 1080px;
+    
+    
+}
+
+.sectionbostanli{
+    background-image: url(../images/bostanli3.jpg.);
+    width:100%;
+    max-height: 1080px;
+    
+}
+
+.sectioncesme{
+    background-image: url(../images/cesme2.jpg);
+    width:100%;
+    max-height: 1080px;
+    
+    
+}
+
+.sectionfoca{
+    background-image: url(../images/foca3.jpg);
+    width:100%;
+    max-height: 1080px;
+    
+    
+}
+
+.sectionkonak{
+    background-image: url(../images/konak3.jpg);
+    width:100%;
+    max-height: 1080px;
+    
+}
+.body{
+    background-color: rgba(107, 107, 107, 0.405);
+    
+}
+
+
